@@ -4,7 +4,7 @@
     This contract recevives funding from different accounts. Only the contract owner can withdraw these funds.
 */
 
-pragma solidity 0.6.0;
+pragma solidity ^0.8.15;
 
 contract FundProjectForOwner {
     address public owner;
@@ -13,7 +13,7 @@ contract FundProjectForOwner {
 
     address[] public funders;
 
-    constructor() public {
+    constructor() {
         owner = msg.sender;
     }
 
@@ -28,8 +28,6 @@ contract FundProjectForOwner {
     }
 
     function withdraw() public payable onlyOwner {
-        msg.sender.transfer(address(this).balance);
-
         for (
             uint256 funderIndex = 0;
             funderIndex < funders.length;
@@ -40,5 +38,7 @@ contract FundProjectForOwner {
         }
 
         funders = new address[](0);
+
+        payable(msg.sender).transfer(address(this).balance);
     }
 }

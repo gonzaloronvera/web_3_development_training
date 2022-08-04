@@ -1,10 +1,10 @@
-// SPDX-Licence-Indentifier: MIT
+// SPDX-License-Identifier: MIT
 
 /*
     This contract stores a value in the blockchain.
 */
 
-pragma solidity 0.6.0;
+pragma solidity ^0.8.15;
 
 contract StoreValue {
     uint256 myValue;
