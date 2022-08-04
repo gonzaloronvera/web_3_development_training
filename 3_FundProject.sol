@@ -4,7 +4,7 @@
     This contract recevives funding from different accounts. Anyone can withdraw the funds.
 */
 
-pragma solidity 0.6.0;
+pragma solidity ^0.8.15;
 
 contract FundProject {
     mapping(address => uint256) public addressToAmountFunded;
@@ -17,8 +17,6 @@ contract FundProject {
     }
 
     function withdraw() public payable {
-        msg.sender.transfer(address(this).balance);
-
         for (
             uint256 funderIndex = 0;
             funderIndex < funders.length;
@@ -29,5 +27,7 @@ contract FundProject {
         }
 
         funders = new address[](0);
+
+        payable(msg.sender).transfer(address(this).balance);
     }
 }
