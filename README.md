@@ -32,7 +32,7 @@
 
 ## Creating your first token
 
-- Write a smart contract to create a [ERC20] (https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) token. (5_MyToken.sol)
+- Write a smart contract to create a [ERC20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) token. (5_MyToken.sol)
 - Add the token to your wallet.
 
 ## Blockchain concepts (Optional):
