@@ -1,9 +1,5 @@
 # Web development workshop
 
-## Blockchain concepts:
-
-- Explore the blockchain concepts using this [link](https://andersbrownworth.com/blockchain/block).
-
 ## Create wallet in Metamask.
 
 - [Download extension for Chrome](https://metamask.io/).
@@ -39,6 +35,8 @@
 - Write a smart contract to create a ERC20 token. (5_MyToken.sol)
 - Add the token to your wallet.
 
+## Blockchain concepts (Optional):
 
+- Explore the blockchain concepts using this [link](https://andersbrownworth.com/blockchain/block).
 
 
