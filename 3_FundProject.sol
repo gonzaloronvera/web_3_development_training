@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 
 /*
-    This contract recevives funding from different accounts. Anyone can withdraw the funds.
+    This contract receives funding from different accounts. Anyone can withdraw the funds.
 */
 
 pragma solidity ^0.8.0;
@@ -17,15 +17,14 @@ contract FundProject {
     }
 
     function withdraw() public payable {
-        for (
-            uint256 funderIndex = 0;
-            funderIndex < funders.length;
-            funderIndex++
-        ) {
+        
+        // Resets map
+        for (uint256 funderIndex = 0;funderIndex < funders.length;funderIndex++) {
             address funder = funders[funderIndex];
             addressToAmountFunded[funder] = 0;
         }
 
+        // Resets funders array
         funders = new address[](0);
 
         payable(msg.sender).transfer(address(this).balance);
