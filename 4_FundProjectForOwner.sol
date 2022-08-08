@@ -28,15 +28,14 @@ contract FundProjectForOwner {
     }
 
     function withdraw() public payable onlyOwner {
-        for (
-            uint256 funderIndex = 0;
-            funderIndex < funders.length;
-            funderIndex++
-        ) {
+        
+        // Resets map
+        for (uint256 funderIndex = 0;funderIndex < funders.length;funderIndex++) {
             address funder = funders[funderIndex];
             addressToAmountFunded[funder] = 0;
         }
 
+        // Resets funders array
         funders = new address[](0);
 
         payable(msg.sender).transfer(address(this).balance);
