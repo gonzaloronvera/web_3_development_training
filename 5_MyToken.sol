@@ -4,7 +4,7 @@
     This contract creates an ERC20 token using OpenZeppelin.
 */
 
-pragma solidity ^0.8.15;
+pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 

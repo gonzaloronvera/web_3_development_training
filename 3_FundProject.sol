@@ -4,7 +4,7 @@
     This contract recevives funding from different accounts. Anyone can withdraw the funds.
 */
 
-pragma solidity ^0.8.15;
+pragma solidity ^0.8.0;
 
 contract FundProject {
     mapping(address => uint256) public addressToAmountFunded;

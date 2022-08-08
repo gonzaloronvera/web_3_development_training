@@ -4,7 +4,7 @@
     This contract recevives funding from different accounts. Only the contract owner can withdraw these funds.
 */
 
-pragma solidity ^0.8.15;
+pragma solidity ^0.8.0;
 
 contract FundProjectForOwner {
     address public owner;
