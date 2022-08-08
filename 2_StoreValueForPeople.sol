@@ -4,7 +4,7 @@
     This contract stores values in the blockchain for different people.
 */
 
-pragma solidity ^0.8.15;
+pragma solidity ^0.8.0;
 
 contract StoreValueForPeople {
     struct People {
