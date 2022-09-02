@@ -2,7 +2,7 @@
 
 ## Create wallet in Metamask.
 
-- [Download extension for Chrome](https://metamask.io/).
+- [Download Metamast extension for Chrome](https://metamask.io/) or [Brave browser](https://brave.com/).
 - Create a wallet. Set up password and backup phrase. 
 - Validate your account in [Etherscan](https://etherscan.io/).
 - See Private key for your account.
