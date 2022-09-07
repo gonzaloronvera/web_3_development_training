@@ -1,8 +1,8 @@
-# Web development workshop
+# Web3 development workshop
 
 ## Create wallet in Metamask.
 
-- [Download Metamast extension for Chrome](https://metamask.io/) or [Brave browser](https://brave.com/).
+- [Download Metamask extension for Chrome](https://metamask.io/) or [Brave browser](https://brave.com/). For added coolness you can use [Tor](https://www.torproject.org/download/)
 - Create a wallet. Set up password and backup phrase. 
 - Validate your account in [Etherscan](https://etherscan.io/).
 - See Private key for your account.
