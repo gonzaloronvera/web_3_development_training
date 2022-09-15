@@ -10,7 +10,7 @@
 ## Operating on the testnets
 
 - See the Etherscans for [Rinkeby](https://rinkeby.etherscan.io/).
-- Get Ether using either [the Chainlink Rinkeby faucet](https://rinkebyfaucet.com/) or [the AWS faucet](https://faucet.awsmyers.people.aws.dev/).
+- Get Ether using either [the Chainlink Rinkeby faucet](https://rinkebyfaucet.com/) or [the AWS faucet](https://faucet.awsmyers.people.aws.dev/). Alternatelly, you could explore [other faucets] (https://faucets.chain.link/rinkeby)
 - See the transaction and account in [Rinkeby EtherScan](https://rinkeby.etherscan.io/). See the Ether in the wallet.
 - Transfer ETH with the people sitting next to you.
 - See the gas for your transactions.
