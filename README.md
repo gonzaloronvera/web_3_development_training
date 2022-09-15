@@ -2,7 +2,7 @@
 
 ## Create wallet in Metamask.
 
-- [Download Metamask extension for Chrome](https://metamask.io/) or [Brave browser](https://brave.com/). For added coolness you can use [Tor](https://www.torproject.org/download/)
+- [Download Metamask extension for Chrome](https://metamask.io/) or [Brave browser](https://brave.com/).
 - Create a wallet. Set up password and backup phrase. 
 - Validate your account in [Etherscan](https://etherscan.io/).
 - See Private key for your account.
@@ -10,7 +10,7 @@
 ## Operating on the testnets
 
 - See the Etherscans for [Rinkeby](https://rinkeby.etherscan.io/).
-- Get Ether using either [the AWS faucet](https://faucet.awsmyers.people.aws.dev/), or [the Chainlink Rinkeby faucet](https://rinkebyfaucet.com/).
+- Get Ether using either [the Chainlink Rinkeby faucet](https://rinkebyfaucet.com/) or [the AWS faucet](https://faucet.awsmyers.people.aws.dev/).
 - See the transaction and account in [Rinkeby EtherScan](https://rinkeby.etherscan.io/). See the Ether in the wallet.
 - Transfer ETH with the people sitting next to you.
 - See the gas for your transactions.
