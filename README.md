@@ -37,6 +37,7 @@ There are a few common tools we'll be using to complete the workshop;
 5. **Faucets:**
    To experiment on a testnet we need a wallet with funds. Faucets are services that will send a small amount of funds to your wallet to get you started. (Faucets only exist on testnets - for obvious reason!)
    - We've created [The Very Cool Goerli Faucet](https://faucet.awsmyers.people.aws.dev/) that you can use to request test funds. Once you've submitted your request, please allow a few minutes for the transaction to clear (although typically this will happen in less than a minute). Once the transaction has cleared you will see your account on screen with a non-zero balance.
+   - Alternately, you could use [this public faucet](https://goerlifaucet.com/)
    - Once the transaction has cleared head over to [Goerli EtherScan](https://goerli.etherscan.io/) and search for your wallet address. Take note that you can see the balance of your account and also the transaction that the sent funds.
    - (optional) Transfer ETH with the people sitting next to you.
 
